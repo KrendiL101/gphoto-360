@@ -1,0 +1,43 @@
+#content .device{
+	text-align: center;
+}
+
+#content .device .icon{
+	opacity: 0.3;
+}
+
+#content .device .icon{
+	height: 160px;
+}
+
+#content .device .icon img{
+	max-width: 150px;
+}
+
+#content .device .status{
+	color: red;
+}
+
+#content .device .status:before{
+	content: "Не подключено";
+}
+
+#content .device.connected .status{
+	color: green;
+}
+
+#content .device.connected .status:before{
+	content: "Подключено";
+}
+
+#content .device.connected .icon{
+	opacity: 1;
+}
+
+.session-config button{
+	width: 100%;
+}
+
+.session-config .progress{
+	width: 100%;
+}
